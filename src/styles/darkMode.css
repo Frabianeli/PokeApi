@@ -1,0 +1,62 @@
+
+/*-----COLOR-DARK-----*/
+.dark-mode .card{
+    background-color: #13191e;
+}
+.dark-mode .fire .container-img{
+    background: linear-gradient(to bottom, #e76112, #13191e);
+}
+.dark-mode .normal .container-img{
+    background: linear-gradient(to bottom, #A8A77A, #13191e);
+}
+.dark-mode .fighting .container-img{
+    background: linear-gradient(to bottom, #4b7981, #13191e);
+}
+.dark-mode .flying .container-img{
+    background: linear-gradient(to bottom, #A98FF3, #13191e);
+}
+.dark-mode .poison .container-img{
+    background: linear-gradient(to bottom, #AB6AC8, #13191e);
+}
+.dark-mode .ground .container-img{
+    background: linear-gradient(to bottom, #E2BF65, #13191e);
+}
+.dark-mode .rock .container-img{
+    background: linear-gradient(to bottom, #787669, #13191e);
+}
+.dark-mode .bug .container-img{
+    background: linear-gradient(to bottom, #A6B91A, #13191e);
+}
+.dark-mode .ghost .container-img{
+    background: linear-gradient(to bottom, #625595, #13191e);
+}
+.dark-mode .steel .container-img{
+    background: linear-gradient(to bottom, #B7B7CE, #13191e);
+}
+.dark-mode .fire .container-img{
+    background: linear-gradient(to bottom, #ff5f00, #13191e);
+}
+.dark-mode .water .container-img{
+    background: linear-gradient(to bottom, #3183ff, #13191e);
+}
+.dark-mode .grass .container-img{
+    background: linear-gradient(to bottom, #179126, #13191e);
+}
+.dark-mode .electric .container-img{
+    background: linear-gradient(to bottom, #f1c500, #13191e);
+}
+.dark-mode .psychic .container-img{
+    background: linear-gradient(to bottom, #c200e5, #13191e);
+}
+.dark-mode .ice .container-img{
+    background: linear-gradient(to bottom, #6dc5c1, #13191e);
+}
+.dark-mode .dragon .container-img{
+    background: linear-gradient(to bottom, #6F35FC, #13191e);
+}
+.dark-mode .dark .container-img{ 
+    background: linear-gradient(to bottom, #705746, #13191e);
+}
+.dark-mode .fairy .container-img{
+    background: linear-gradient(to bottom, #f12089e3, #13191e);
+}

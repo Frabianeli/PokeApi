@@ -1,0 +1,900 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    font-size: 14px;
+}
+h2, h3{
+    margin: 0px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+/*-----HOME-----*/
+.home{
+    min-height: 100vh;
+    background-color: rgb(229, 226, 226);
+}
+.welcome{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 450px;
+}
+.welcome img{
+    width: 50px;
+    height: 90px;
+    filter: drop-shadow(5px 3px 0px rgba(0, 0, 0, 0.507));
+}
+.welcome h2{
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(255 211 49);
+    font-family: monospace, 'Montserrat', sans-serif;
+    text-shadow: 2px 2px #343434;
+}
+.welcome span{
+    color: rgb(114 145 255);
+}
+.container-button{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.singOff{
+    position: relative;
+    right: 0px;
+    border-radius: 0px 0px 0px 5px;
+    padding: 4px 6px 5px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(48 144 181);
+    color: #ebda0a;
+    height: 26px;
+}
+.header{
+    background-color: rgb(189, 25, 25);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.title > img{
+    padding-top: 50px;
+    width: 220px;
+    height: 82px;
+    text-align: center;
+}
+
+.home .to-play{
+    padding: 4px 8px 4px 8px;
+    background-color: #fdbd2d;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+.loggin{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+       url('../src/components/assets/loggin-img/background_pokedex.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-loggin{
+    width: 90%;
+    margin: auto;
+}
+
+.loggin-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.loggin-title img{
+    width: 200px;
+    filter: drop-shadow(5px 3px 0px black);
+}
+.loggin .poke-logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.poke-logo img{
+    width: 150px;
+    filter: drop-shadow(3px 4px 0px black);
+}
+.loggin h2{
+    font-family: monospace, 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #dbfdff;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px black;
+}
+.loggin form{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.loggin input{
+    outline: none;
+    border: none;
+    width: 150px;
+    background-color: #ffffff;
+    border: 2px solid #27c8dd;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 4px;
+    font-family: monospace;
+    box-shadow: 2px 2px 0 rgb(34, 34, 34);
+}
+.loggin button{
+    font-family: monospace, 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 3px 6px;   
+    background-color: #27c8dd;
+    border: 2px solid #27c8dd;
+    border-radius: 0px 8px 8px 0px;
+    color: rgb(195 13 13);
+    box-shadow: 2px 2px 0 rgb(34, 34, 34)
+}
+.loggin button:hover{
+    background-color: brown;
+    color: white;
+    border:2px solid brown;
+}
+
+.loggin p{
+    font-family: monospace, 'montserrat', sans-serif;
+    font-size: 1rem;
+    color: #dbfdff;
+    font-weight: 600;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+/*----SEARCH-----*/
+.search{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.search form {
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 120px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    padding: 1px 0px 1px 6px;
+    border: none;
+    background-color:  rgb(223, 219, 219);
+    color: black;
+    box-shadow: 2px 2px 0px #262626c7;
+    font-weight: 600;
+}
+.search button{
+    border-radius: 0px 5px 5px 0px;
+    font-size: 0.9rem;
+    padding: 4px 7px 4px 9px;
+    background-color:  rgb(48 144 181);
+    color: black;
+    box-shadow: 2px 2px 0px #262626c7;
+    font-weight: 600;
+}
+.search button:hover{
+    background-color: rgb(0 178 231)
+}
+.search .prevent-search{
+    position: relative;
+    right: 15px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*----SELECT----*/
+.container-select{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+select{
+    font-size: 0.9rem;
+    padding: 3px 6px 4px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(48 144 181);
+    width:125px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #262626c7;
+    font-weight: 600;
+}
+select:hover{
+    background-color: #378ab1;
+}
+option{
+    font-size: 0.9rem;
+    color: #dfdfdf;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/*----PAGINATION-----*/
+.pagination-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 92%;
+    margin: auto;
+  }
+  .pagination-number-container{
+    display: flex;
+    gap: 2px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  .ellipsis{
+    width: 28px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+  }
+  .pagination-prev-next{ 
+    color: white;
+    cursor: pointer;
+    width: 28px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48 144 181);
+    border-radius: 8px;
+
+  }
+  .page-number {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    width: 28px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .page-active{
+    background-color: rgb(48 144 181);
+    color: white;
+  }
+
+  .pagination-container .i{
+    font-size: 1rem;
+  }
+
+
+/*-----CARD------*/
+.container-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.card{
+    width: 220px;
+    cursor:pointer;
+    box-shadow: 0 0 16px #615b5b;
+    border-radius: 15px;
+    min-height: 355px;
+    background-color: aliceblue;
+    transition: all 400ms ease;
+}
+.card:hover{
+    transform: scale(1.03);
+    filter: contrast(1.1);
+}
+.card .container-img{
+    padding-top: 20px;
+    border-radius: 11px 11px 0px 0px;
+}
+.card .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 155px;
+}
+.container-content{
+    background-color: aliceblue;
+    border-radius: 0px 0px 15px 15px;
+    color: rgb(139, 136, 136);
+    min-height: 178px;
+}
+.card img{
+    width: 120px;
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.5));
+}
+
+.container-content > p{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 2px;
+    font-weight: 500;
+}
+.container-content .p-lead{
+    color: rgb(139, 136, 136);
+}
+.card  h2{
+    padding-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.container-content > h3{
+    padding-top: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}   
+.card .container-stats{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.container-stats .stat{
+    width: 50%;
+}
+.stat{
+    padding-top: 25px;
+}
+.stat h4, p{
+    margin: 0;
+    text-align: center
+}
+.stat h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.stat p{
+    padding-top: 3px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.progres{
+    height: 30px;
+}
+.progress progress{
+    height: 30px;
+}
+
+/*-----LOADING-------*/
+.loading img{
+    width: 40px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    animation: infinite 2s loading;
+}
+@keyframes loading {
+    0% { transform: translate(0px, 0) rotate(0deg); }
+    25% { transform: translate(-8px, 0) rotate(-18deg); }
+    33% { transform: translate(8px, 0) rotate(18deg); }
+    50% { transform: translate(-8px, 0) rotate(-12deg); }
+    60% { transform: translate(8px, 0) rotate(18deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+  }
+
+/*-----PLAY -----*/
+.guess{
+    background-color: #c70000;
+    min-height: 100vh;
+}
+.header-play{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    max-width: 600px;
+}
+.guess h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 2.1rem;
+    text-shadow: 2px 2px 0 rgb(34, 34, 34);
+    font-family: 'montserrrat';
+    font-weight: 600;
+    color: #f9db00;
+}
+.guess p{
+    font-size: 1rem;
+    color: #f9db00;
+    text-align: start;
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 6px;
+    text-shadow: 1px 1px 0 black;
+    font-family: monospace;
+}
+.container-play {
+    background-color: #c70000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.play{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    position: relative;
+    width: 600px;
+    height: 370px;
+    background-image: url("../src/components/assets/play-img/pokedex.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border: 3px solid black;
+    margin-bottom: 40px;
+}
+.container-screen{
+    width: 84%;
+    height: 275px;
+    min-height: 210px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c70000;
+}
+.screen{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    background-image: url('../src/components/assets/play-img/guees_pokemon.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+    min-height: 150px;
+    max-height: 195px;
+    max-width: 371px;
+}
+.response h3{
+    padding-bottom: 9px;
+    color: #f9db00;
+    font-family: monospace;
+    text-shadow: 1px 1px 0 black;
+    font-size: 0.9rem;
+}
+.response .next{
+    border-radius: 5px;
+}
+.play .pokemon-play{
+    width: 70%;
+    position: relative;
+    left: 0;
+    filter: contrast(0%)  hue-rotate(20deg) saturate(1000%);
+    padding: 40px;
+}
+.play .img-guess{
+    width: 53%;
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play .show{
+    filter: none;
+}
+.play .form{
+    position: absolute;
+    bottom: 70px;
+    background-color: #c70000;
+    width: 81%;
+    max-width: 490px;
+    min-width: 150px;
+    left: 3px;
+    text-align: center;
+}
+.play .response{
+    width: 100%;
+    text-align: center;
+}
+.response h3{
+    text-align: center;
+}
+.response  form{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.response input{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 8px 0px 0px 8px;
+    width: 130px;
+    background-color: #d1fff3;
+    padding: 3px;
+    font-weight: 600;
+}
+.response button{
+    border: 2px solid black;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #24a36e;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.response button:hover{
+    background-color: #195ad3;
+    color: white;
+}
+.play > button:hover{
+    background-color: #00a5bb;
+}
+.prevent{
+    background-color: #dbc41f;
+    position: absolute;
+    top: 0;
+    border-radius: 0px 0px 8px 0px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.container-play i{
+    font-size: 22px;
+    color: black;
+}
+.change{
+    background-color: #dbc41f;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0px 0px 0px 8px;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+.clue{
+    background-color: #dbc41f;
+    position: absolute;
+    right: 0;
+    border-radius: 8px 0px 0px 0px;
+    border:  2px solid black;
+}
+
+/*---POKE-INFO---*/
+
+.poke-info{
+    padding-top: 20px;
+    background-color: #272626;
+    min-height: 100vh;
+}
+
+.background-info{
+    text-align: center;
+}
+
+.background-animation img{
+    width: 100px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    filter: drop-shadow(4px 4px 0px #080808ad);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moving 10s infinite ;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    padding: 50px;
+}
+@keyframes moving{
+    from{
+        background-position: 10% 10%;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+
+.poke-info p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 2px 1px 0px #181818c7
+}
+.container-h-k{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container-type-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.container-type-info div h5{
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 0.9rem;
+    text-align: center;
+    text-shadow: 1px 1px 4px #20202038;
+}
+.container-type-info div{
+    border-radius: 10px;
+    width: 110px;
+    box-shadow: 4px 4px 1px #262626c2;
+}
+.poke-info button{
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 9px 5px 8px;
+    box-shadow: 3px 3px 5px #000000d1;
+    text-shadow: 1px 1px 0px #2a2a2a4f;
+}
+.poke-info h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 1px #262626c2;
+}
+
+.container-h-k h3{
+    color: rgb(247 247 247);
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 9px;
+    text-shadow: 1px 1px 0px #282828b3;
+}
+
+.container-info-stat > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 1px #262626c2;
+}
+.container-body{
+    display: flex;
+    flex-direction: column;
+}
+.container-abilities{
+    padding-bottom: 35px;
+    width: 90%;
+    margin: auto;
+}
+.container-abilities h3{
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(247 247 247);
+    font-size: 1.1rem;
+    text-shadow: 2px 1px 0px #282828b3;
+}
+.abilities{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+
+.background-info button:hover{
+    background-color: #d31111;
+}
+/*-----progres----*/
+.container-progress {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.progress{
+    margin-bottom: 15px;
+}
+.progress h5{
+    margin: 0;
+    position: relative;
+    top: 3px;
+    color: rgb(224, 224, 224);
+    margin-bottom: 6px;
+    text-shadow: 2px 2px 0px black;
+}
+.progress-bar {
+    background-color: #1a1a1a;
+    height: 14px;
+    padding: 2px;
+    padding: 1px 5px 5px 5px;
+    margin: 6px 0px 15px 0px;         
+    border-radius: 10px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    margin: 0;           
+  }
+  
+  .progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out; 
+    background-color: #ccc;   
+    text-align: right;
+    font-size: 0.8rem;
+    padding-right: 0px;
+    font-weight: 600;
+    padding-right: 3px;
+  }
+  
+  /**** STRIPES ****/
+  .stripes span {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+      transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+      transparent 75%, transparent);            
+  
+    animation: animate-stripes 3s linear infinite;             
+  }
+  
+  @keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+  }
+  
+
+
+  /**** SHINE ****/
+  .shine span {
+    position: relative;
+  }
+  
+  .shine span::after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 3px;
+    animation: animate-shine 2s ease-out infinite;             
+  }
+  
+  @keyframes animate-shine {
+    0% {opacity: 0; width: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 0; width: 95%;}
+  }
+  
+  /**** GLOW ****/
+  .glow span {
+    box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;    
+    animation: animate-glow 1s ease-out infinite;          
+  }
+  
+  @keyframes animate-glow {
+    0% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;} 
+    50% { box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;} 
+    100% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+  }
+
+
+  /*-----DARKMODE-----*/
+  .container-dark-mode{
+    display: flex;
+    border-radius: 10px;
+  }
+  .btn-dark {
+      cursor: pointer;
+      height: 26px;
+  }
+  .btn-sure{
+    cursor: pointer;
+    height: 26px;
+  }
+  .container-dark-mode .btn-sure{
+    border: 2px solid black;
+    background-color: #000000;
+}
+.container-dark-mode .btn-dark{
+    border: 2px solid black;
+}
+.btn-sure i{
+    color: #ffcd5c;
+    font-size: 13px;
+    padding: 3px;
+}
+.btn-dark i{
+    color: rgb(34, 33, 33);
+    font-size: 13px;
+    padding: 3px;
+}
+
+
+
+/*----MODO DARK-....*/
+.dark-mode .home{
+background-color: rgb(20 21 36);
+}
+.dark-mode .container-dark-mode .btn-dark{
+background-color: #000000;
+border: 2px solid rgb(255, 255, 255);
+}
+.dark-mode .container-dark-mode .btn-sure{
+background-color: rgb(0, 0, 0);
+border: 2px solid rgb(255, 255, 255);
+}
+.dark-mode .container-dark-mode .btn-sure i{
+color: rgb(255, 255, 255);
+}
+.dark-mode .container-dark-mode .btn-dark i{
+color: #ffcd5c;
+}
+.dark-mode .container-content{
+background-color: #13191e;
+}
+.dark-mode .header{
+background-color: rgb(20 21 36);
+}
+.dark-mode .pagination-container{
+    color: white;
+}
+.dark-mode .pagination-container .page-number{
+    color: white;
+}
+.dark-mode .header select {
+    color: white;
+}
+.dark-mode .search button {
+    color: white;
+}
+.dark-mode .singOff{
+    color: white;
+}
+
+/*-----ERROR404-----*/
+.err404{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.err404 img{
+    width: 235px;
+}

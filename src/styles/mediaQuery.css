@@ -1,0 +1,451 @@
+@media (min-width: 576px) {
+    .container-button{
+        width: 70px;
+        right: 0;
+        background-color: rgb(247, 160, 0);
+        flex-direction: column;
+        position: static;
+    }
+    .singOff{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 40px;
+        border-radius: 0px 0px 5px 0px;
+     }
+     .to-play{
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 69px;;
+        border-radius: 0px 0px 0px 5px;
+     }
+     .container-dark-mode{
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    .btn-sure{
+        border-radius: 5px 0px 0px 5px;
+    }
+    .title > img{
+        width: 250px;
+        height: 85px;
+    }
+    .container-progress{
+        width: 70%;
+    }
+    .background-animation img{
+        width: 120px;
+    }
+    .loggin-title .pokemon{
+        width: 240px;
+    }
+    .poke-logo img{
+        width: 170px;
+    }
+    .abilities{
+        gap: 30px;
+    }
+}
+
+@media (min-width: 650px){
+
+    .loggin-title .pokemon{
+        width: 260px;
+    }
+    .poke-logo img{
+        width: 190px;
+    }
+    .container-progress{
+        width: 65%;
+    }
+    .guess h2{
+        padding-top: 30px;
+        padding-top: 30px;
+    }
+    .background-animation img{
+        width: 125px;
+    }
+}
+
+@media (min-width: 720px){
+    .container-info-stat > h3{
+        font-size: 1.6rem;
+    }
+    .poke-info{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+    } 
+    .container-progress{
+        width: 100%;
+        padding: 0;
+    }
+    .container-info-stat{
+        width: 300px;
+    }
+    .info-small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .background-info button{
+        position: absolute;
+        left: 0;
+        top: 30px;
+    }
+    .container-h-k {
+        padding-bottom: 0;
+        padding-top: 25px;
+    }
+    .container-abilities{
+        padding: 0;
+        padding-top: 10px;
+        width: 100%;
+        padding-left: 8px;
+    }
+    .container-abilities > h3{
+        padding-top: 10px;
+    }
+    .abilities{
+        gap: 20px;
+        padding-bottom: 0px;
+    }
+    .poke-info h2 {
+        padding-top: 5px;
+    }
+    .header-info{
+        width: 320px;
+    }
+
+    .err404 img{
+        width: 320px;
+    }
+}
+
+@media (min-width: 840px){
+    
+    .title > img {
+        width: 260px;
+        height: 92px;
+    }
+    .welcome{
+        padding-top: 8px;
+        padding-bottom: 5px;
+    }
+    .welcome img {
+        width: 60px;
+        height: 100px;
+    }
+    .loggin-title .pokemon{
+        width: 295px;
+    }
+    .poke-logo img{
+        width: 230px;
+    }
+    .loggin h2{
+        font-size: 1.2rem;
+    }
+    .loggin p{
+        font-size: 1.1rem;
+    }
+    .background-animation img{
+        width: 140px;
+    }
+    .container-info-stat{
+        width: 340px;
+    }
+    .progress-bar span {
+        font-size: 0.9rem;
+    }
+    .container-info-stat > h3{
+        font-size: 1.7rem;
+    }
+    .header-info{
+        width: 340px;
+    }
+    .pagination-container div{
+        width: 29px;       
+    }
+    .pagination-container i{
+        font-size: 1.2rem;
+    }
+    .pagination-container li{
+        width: 29px;
+        font-size: 1.2rem;
+    }
+    .search button{
+        padding: 5px 8px 5px 10px;
+    }
+    select{
+       height: 27px;
+    }
+    .header-play h2{
+        padding-top:30px;
+        font-size: 2.3rem;
+    }
+    .header-play p{
+        font-size: 1.1rem;
+        line-height: 24px;
+    }
+    .response h3{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 1000px){
+
+    .welcome h2{
+        font-size: 1.2rem;
+    }
+    .title > img{
+        width: 350px;
+        height: 99px;
+    }
+    .welcome{
+        gap: 5px;
+    }
+    .welcome img{
+        width: 80px;
+        height: 105px;
+    }
+    .background-animation img{
+        width: 160px;
+    }
+    .container-info-stat{
+        width: 380px;
+    }
+    .info-small{
+        gap: 100px;
+    }
+    .poke-info h2{
+        font-size: 1.9rem;
+    }
+    .container-h-k h3{
+        font-size: 1rem;
+    }
+    .poke-info p{
+        font-size: 1.1rem;
+    }
+    .header-info{
+        width: 380px;
+    }
+    .pagination-container div{
+        width: 30px;       
+    }
+    .pagination-container i{
+        font-size: 1.3rem;
+    }
+    .pagination-container li{
+        width: 30px;
+        font-size: 1.3rem;
+    }
+    .play{
+        height: 390px;
+    }
+    .err404 img{
+        width: 350px;
+    }
+}
+
+@media (min-width: 1200px){
+    .poke-logo img{
+        width: 250px;
+    }
+    .loggin .pokemon {
+        width: 310px;
+    }
+    .background-animation img{
+        width: 180px;
+    }
+    .container-info-stat{
+        width: 430px;
+    }
+    .info-small{
+        gap: 140px;
+    }
+    .progress-bar{
+        height: 15px;
+    }
+    .poke-info h2{
+        padding-top: 10px;
+    }
+    .card h4{
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    .card h2{
+        font-size: 1.5rem;
+    }
+    .card h3{
+        font-size: 1.1rem;
+    }
+    .card p{
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    .card img{
+        width: 130px;
+    }
+    .loading img{
+        width: 45px;
+    }
+    .header-play h2{
+        padding-top:30px;
+        font-size: 2.4rem;
+    }
+    .header-play p{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .response h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+}
+
+@media (min-width: 1520px){
+    .loggin .pokemon{
+        width: 330px;
+    }
+    .poke-logo img{
+        width: 272px;
+    }
+    .poke-logo{
+        padding-bottom: 25px;
+    }
+    .loggin h2{
+        font-size: 1.3rem;
+    }
+    .container-loggin button{
+        font-size: 1rem;
+    }
+
+    .background-animation img{
+        width: 220px;
+    }
+    .container-info-stat{
+        width: 470px;
+    }
+    .info-small{
+        gap: 170px;
+    }
+    .progress-bar{
+        padding: 4px 5px 5px 5px;
+        height: 16px;
+    }
+    .progress h5{
+        font-size: 0.9rem;
+    }
+    .poke-info h2{
+        font-size: 2.1rem;
+    }
+    .poke-info p{
+        font-size: 1.1rem;
+    }
+    .header-info h3{
+        font-size: 1.1rem;
+    }
+    .progress-bar span {
+        font-size: 1rem;
+    }
+    .loggin button{
+        font-size: 1rem;
+    }
+    .guess{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-info{
+        width: 410px;
+    }
+    .title > img {
+        width: 365px;
+        height: 110px;
+    }
+    .welcome img{
+        height: 115px;
+    }
+    .singOff{
+        height: 27px;
+    }
+    .to-play{
+        min-height: 27px;
+    }
+    .btn-sure{
+        height: 28px;
+    }
+    .btn-dark{
+        height: 28px;
+    }
+    .search input{
+        height: 24px;
+        width: 140px;
+    }
+    .search button{
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 4px 7px 4px 8px;
+    }
+    select{
+        width: 125px;
+        font-size: 0.9em;
+    }
+    .pagination-container div{
+        width: 31px;       
+    }
+    .pagination-container i{
+        font-size: 1.3rem;
+    }
+    .pagination-container li{
+        width: 31px;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .header-play h2{
+        padding-top:20px;
+        font-size: 2.9rem;
+    }
+    .header-play p{
+        font-size: 1.2rem;
+        line-height: 24px;
+    }
+    .play{
+        height: 410px;
+        width: 635px;
+    }
+    .play input{
+        height: 18px;
+    }
+    .play form button{
+        padding: 4px 8px 4px 8px;
+        font-size: 1rem;
+    }
+    .play button{
+        padding: 5px 8px 5px 8px;
+    }
+    .container-screen{
+        height: 295px;
+    }
+    .screen{
+        max-width: none;
+        max-height: none;
+        width: 415px;
+        height: 220px;
+    }
+    .header-play{
+        width: 635px;
+        max-width: none;
+    }
+    .welcome{
+        max-width: 620px;
+    }
+    .err404 img{
+        width: 420px;
+    }
+}
